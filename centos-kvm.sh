@@ -19,13 +19,13 @@ read -p "Maks login user (contoh 1 atau 2): " llimit
 echo "Proses instalasi script dimulai....."
 
 # Banner SSH
-echo "<BR><font color='#008080'>## SELAMAT DATANG DI SERVER PREMIUM $hnbaru ##</font>" >> /etc/pesan
-echo "<BR><font color='#1E90FF'>DENGAN MENGGUNAKAN LAYANAN SSH DARI SERVER INI BERARTI ANDA SETUJU SEGALA KETENTUAN YANG TELAH KAMI BUAT: </font>" >> /etc/pesan
-echo "<BR><font color='#1E90FF'>1. Tidak diperbolehkan untuk melakukan aktivitas illegal seperti DDoS, Hacking, Phising, Spam, dan Torrent di server ini. </font>" >> /etc/pesan
-echo "<BR><font color='#1E90FF'>2. Maks login $llimit kali, jika lebih dari itu maka akun otomatis ditendang oleh server </font>" >> /etc/pesan
-echo "<BR><font color='#1E90FF'>3. Pengguna setuju jika kami mengetahui atau sistem mendeteksi pelanggaran di akunnya maka akun akan dihapus oleh sistem. </font>" >> /etc/pesan
-echo "<BR><font color='#1E90FF'>4. Tidak ada tolerasi bagi pengguna yang melakukan pelanggaran. </font>" >> /etc/pesan
-echo "<BR><font color='#FF0000'>Supported by $namap ( $nhp ) </font>" >> /etc/pesan
+echo "## SELAMAT DATANG DI SERVER PREMIUM $hnbaru ##" >> /etc/pesan
+echo "DENGAN MENGGUNAKAN LAYANAN SSH DARI SERVER INI BERARTI ANDA SETUJU SEGALA KETENTUAN YANG TELAH KAMI BUAT: " >> /etc/pesan
+echo "1. Tidak diperbolehkan untuk melakukan aktivitas illegal seperti DDoS, Hacking, Phising, Spam, dan Torrent di server ini. " >> /etc/pesan
+echo "2. Maks login $llimit kali, jika lebih dari itu maka akun otomatis ditendang oleh server " >> /etc/pesan
+echo "3. Pengguna setuju jika kami mengetahui atau sistem mendeteksi pelanggaran di akunnya maka akun akan dihapus oleh sistem. " >> /etc/pesan
+echo "4. Tidak ada tolerasi bagi pengguna yang melakukan pelanggaran. " >> /etc/pesan
+echo "Supported by $namap ( $nhp ) " >> /etc/pesan
 
 echo "Banner /etc/pesan" >> /etc/ssh/sshd_config
 
